@@ -16,6 +16,7 @@ router.post('/' , Authentication, async function updateList(req, res){
     const previousgenres = [...user.genres]
     user.genres = req.body.genres
     await user.save();      
+  
     return res.status(200).json(
         {
             message : "Genres Updated Successfully"
