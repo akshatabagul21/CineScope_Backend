@@ -6,7 +6,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
 # ==============================
 # Environment files (IMPORTANT)
 # ==============================
@@ -68,3 +67,4 @@ docker-compose.override.yml
 # Next.js / Angular / React (future safety)
 .next/
 .angular/
+uploads/
